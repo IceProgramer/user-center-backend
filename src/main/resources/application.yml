@@ -6,14 +6,14 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/yupao
+    url: jdbc:mysql://localhost:3306/yupao?serverTimeZone=Asia/Shanghai
     username: root
     password: 12345678
   # redis 配置
   redis:
     port: 6379
     host: localhost
-    database: 0
+    database: 1
   # session 失效时间 （86400是两个月的时间）
   session:
     timeout: 86400
